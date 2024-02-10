@@ -29,9 +29,9 @@
 
 
 // PREGUNTA 2 //
-var n1 = prompt("Ingrese el primer numero: ");
+var n1 = prompt("Ingrese el primer numero - distinto de 0 -: ");
 var n1 = parseInt(n1);
-var n2 = prompt("Ingrese el segundo numero: ");
+var n2 = prompt("Ingrese el segundo numero - distinto de 0 -: ");
 var n2 = parseInt(n2);
 document.write("<p>La suma es: </p>");
 document.write(parseInt(n1)+parseInt(n2));
@@ -63,6 +63,7 @@ document.write("<hr>")
 
 // PREGUNTA 4 //
 // se supone, por san google, que https://www.lawebdelprogramador.com/foros/JavaScript/1788483-Ingresar-un-numero-y-que-te-indique-su-equivalente-en-anos-meses-semanas-dias.html tendria la respuesta, pero tiene html, css y js integrados.//
+// finalmente, tome https://es.stackoverflow.com/questions/148127/como-conseguir-sacar-los-a%C3%B1os-meses-d%C3%ADas-entre-fechas como base para editar el codigo
 var msegMinuto = 1000 * 60;
 var msegHora = msegMinuto * 60;
 var msegDia = msegHora * 24;
